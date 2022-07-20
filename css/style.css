@@ -6,23 +6,24 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
     font: 1em;
+
+}
+
+.logo > h1{
+    width: 50px;
+    /* float: left; */
 }
 
 header{
     background-color: #80deea;
-}
-
-footer{
-    height: 8vh;
-    background-color:#00bcd4;
-    color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 nav ul{
-    height: 8vh;
+    height: 10vh;
     display: flex;
     /* justify-content: flex-start; */
     /* justify-items: center;  */
@@ -31,7 +32,7 @@ nav ul{
 ul li{
     list-style: none;   
     padding: 0 20px;
-    margin-top: 18px;
+    margin-top: 20px;
     
 }
 
@@ -43,4 +44,14 @@ ul li a{
 
 .active{
     color: #000000;
+}
+
+
+footer{
+    height: 8vh;
+    background-color:#00bcd4;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
