@@ -1,55 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
     font: 1em;
-
+    background-color: #80deea;
+}
+body{
+    position: relative;
+}
+.main-head {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding-left: 500px;
 }
 
-.logo > h1{
-    width: 50px;
-    /* float: left; */
+h1 {
+    font-family: 'Elianto-Regular';
 }
 
-header{
+/* header{
     background-color: #80deea;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center; */
+/* } */
 
 
-nav ul{
+nav ul {
     height: 10vh;
     display: flex;
     /* justify-content: flex-start; */
     /* justify-items: center;  */
 }
 
-ul li{
-    list-style: none;   
+ul li {
+    list-style: none;
     padding: 0 20px;
     margin-top: 20px;
-    
+
 }
 
-ul li a{
-    text-decoration:none;
+ul li a {
+    text-decoration: none;
     color: white;
-    font-weight: bold;
 }
 
-.active{
+.active {
     color: #000000;
 }
 
 
-footer{
+footer {
     height: 8vh;
-    background-color:#00bcd4;
+    background-color: #00bcd4;
     color: aliceblue;
     display: flex;
     justify-content: center;
