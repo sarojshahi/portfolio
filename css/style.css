@@ -6,35 +6,25 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
     font: 1em;
-    background-color: #80deea;
 }
-body{
-    position: relative;
-}
+
 .main-head {
     width: 100vw;
+    margin: 1em 0;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    padding-left: 500px;
 }
 
-h1 {
-    font-family: 'Elianto-Regular';
-}
-
-/* header{
+header{
     background-color: #80deea;
     display: flex;
     justify-content: center;
-    align-items: center; */
-/* } */
+    align-items: center;
+}
 
 
-nav ul {
-    height: 10vh;
-    display: flex;
-    /* justify-content: flex-start; */
-    /* justify-items: center;  */
+nav > ul {
+    height: 8vh;
 }
 
 ul li {
@@ -62,3 +52,4 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
