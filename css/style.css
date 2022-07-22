@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
+:root {
+    --main-bg-color: #80deea;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,16 +19,17 @@
     justify-content: center;
 }
 
-header{
-    background-color: #80deea;
+header {
+    background-color: var(--main-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-nav > ul {
+nav>ul {
     height: 8vh;
+    margin-bottom: 8 px;
 }
 
 ul li {
@@ -43,13 +48,15 @@ ul li a {
     color: #000000;
 }
 
+.container{
+    min-height: calc(100vh - 8vh - 8vh - 82px);
+}
 
 footer {
     height: 8vh;
-    background-color: #00bcd4;
+    background-color: var(--main-bg-color);
     color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
